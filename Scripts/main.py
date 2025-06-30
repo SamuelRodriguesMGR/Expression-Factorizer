@@ -162,6 +162,8 @@ if __name__ == "__main__":
         "2*(x + 3) + 4*(x + 3)", 
         "a*b + c*d"        
     ]
-    
-    for expr in test_expressions:
-        exp_processor.run(expr)
+    # for expr in test_expressions:
+    #     exp_processor.run(expr)
+
+    while True:
+        exp_processor.run(input("> Введите ваше выражение:"))
